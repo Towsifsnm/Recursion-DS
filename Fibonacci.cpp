@@ -15,7 +15,8 @@ int main() {
 
 cout << "Fibonacci Series: ";
     for (int i = 0; i < n; ++i) {
-        std::cout << fibonacci(i) << " ";
+        
+        cout << fibonacci(i) << " ";
     }
 
     return 0;
